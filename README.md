@@ -1,4 +1,11 @@
-### Hi there 👋
+## Hey there tech folks 👋🏾
+---
+I like to learn and test out new technology. I love sharing everything I've learned on my journey with others.
+
+I love to pick up new tools and technology as it comes out and build fun projects with them. I"m currently building out plug and play base package for Selenium based browser testing. I'm also an Engineering Manager for a team that enables other teams to do their best work. I'm working my CISSP as my commitment to building a safe web experience for all. 
+
+- 😄 Pronouns: He/Him/His
+- ⚡ Fun fact: I got sick of having to hunt for mechanical keyboards that I liked so I started building my own. Ask me about all my backpacks.
 
 <!--
 **stephondoestech/stephondoestech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
