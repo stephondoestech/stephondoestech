@@ -4,6 +4,69 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/stephonparker/.oh-my-zsh"
 
+####################
+# GO LANG SETTINGS #
+####################
+
+#export GOPATH=$HOME/go
+#export GO111MODULE=on
+#export GOROOT="$(brew --prefix golang)/libexec"
+#export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+#[[ -s "/Users/stephonparker/.gvm/scripts/gvm" ]] && source "/Users/stephonparker/.gvm/scripts/gvm"
+#export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$GOPATH/bin:$PATH:"
+
+
+####################
+# GITHUB SETTINGS  #
+####################
+
+#export GONOPROXY="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
+#export GOPRIVATE="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
+#export GITHUB_TOKEN="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"
+
+####################
+# NODE/NPM SETTINGS #
+####################
+
+#export LDFLAGS="-L/opt/homebrew/opt/node@12/lib"
+#export CPPFLAGS="-I/opt/homebrew/opt/node@12/include"
+#export PATH="/opt/homebrew/opt/node@12/bin:$PATH"
+
+####################
+#  DOCKER SETTINGS #
+####################
+
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+#export DOCKER_BUILDKIT=0 
+#export COMPOSE_DOCKER_CLI_BUILD=0
+
+####################
+#  DOCKER ALIAS    #
+####################
+
+alias dcb="DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose build"
+alias dcba="DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose build app-silicon"
+alias dcu="docker-compose up -d app-silicon"
+alias dcd="docker-compose down"
+#alias awslogin="aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 080387373610.dkr.ecr.us-east-1.amazonaws.com"
+
+####################
+#   AWS SETTINGS   #
+####################
+
+# export AWS_PROFILE=
+# export AWS_ACCESS_KEY_ID=
+# export AWS_SECRET_ACCESS_KEY=
+
+####################
+#    HUGO ALIAS    #
+####################
+
+alias hsd="hugo server -D"
+alias hs="hugo serve"
+alias hnp="hugo new posts"
+alias hsr="hugo server --disableFastRender"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
