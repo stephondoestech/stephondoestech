@@ -1,54 +1,92 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/stephonparker/.oh-my-zsh"
 
-####################
-# GO LANG SETTINGS #
-####################
+#################
+# GOLANG CONFIG #
+#################
 
-#export GOPATH=$HOME/go
-#export GO111MODULE=on
-#export GOROOT="$(brew --prefix golang)/libexec"
-#export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
-#[[ -s "/Users/stephonparker/.gvm/scripts/gvm" ]] && source "/Users/stephonparker/.gvm/scripts/gvm"
-#export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$GOPATH/bin:$PATH:"
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
+
+#######################
+# GOOGLE SDK SETTINGS #
+#######################
+
+# source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+# source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+
+#################
+# JAVA SETTINGS #
+#################
+
+# export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+# export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 ####################
 # GITHUB SETTINGS  #
 ####################
 
-#export GONOPROXY="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
-#export GOPRIVATE="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
-#export GITHUB_TOKEN="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"
+export GONOPROXY="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
+export GOPRIVATE="github.com/nytm/*,github.com/NYTimes/*,github.com/nytimes/*"
+export GITHUB_TOKEN=""
 
 ####################
 # NODE/NPM SETTINGS #
 ####################
 
-#export LDFLAGS="-L/opt/homebrew/opt/node@12/lib"
-#export CPPFLAGS="-I/opt/homebrew/opt/node@12/include"
-#export PATH="/opt/homebrew/opt/node@12/bin:$PATH"
+# export LDFLAGS="-L/opt/homebrew/opt/node@12/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/node@12/include"
+# export PATH="/opt/homebrew/opt/node@12/bin:$PATH"
 
 ####################
 #  DOCKER SETTINGS #
 ####################
 
-export DOCKER_DEFAULT_PLATFORM=linux/amd64
-#export DOCKER_BUILDKIT=0 
-#export COMPOSE_DOCKER_CLI_BUILD=0
+# export DOCKER_DEFAULT_PLATFORM=linux/amd64
+# export DOCKER_BUILDKIT=0 
+# export COMPOSE_DOCKER_CLI_BUILD=0
 
 ####################
-#  DOCKER ALIAS    #
+#  PODMAN SETTINGS #
+####################
+
+alias pms="podman machine start"
+
+######################
+#  MINIKUBE SETTINGS #
+######################
+
+alias mksp="minikube start --driver=podman"
+alias mksd="minikube start --driver=docker"
+alias mkd="minikube delete"
+alias mks="minikube stop"
+alias mkdh="minikube dashboard"
+alias mkda="minikube delete --all --purge"
+
+#####################
+#  KUBECTL SETTINGS #
+#####################
+
+alias kbpo="kubectl get po -A"
+
+####################
+#       ALIAS      #
 ####################
 
 alias dcb="DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose build"
 alias dcba="DOCKER_DEFAULT_PLATFORM=linux/amd64 docker-compose build app-silicon"
 alias dcu="docker-compose up -d app-silicon"
 alias dcd="docker-compose down"
-#alias awslogin="aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 080387373610.dkr.ecr.us-east-1.amazonaws.com"
+alias awslogin="aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 080387373610.dkr.ecr.us-east-1.amazonaws.com"
+alias shell="exec zsh -l"
+alias und="unset DOCKER_DEFAULT_PLATFORM"
 
 ####################
 #   AWS SETTINGS   #
@@ -163,12 +201,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-
-#################
-# GOLANG CONFIG #
-#################
-
-export GOPATH=$HOME/go
-export GOROOT="$(brew --prefix golang)/libexec"
-export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
