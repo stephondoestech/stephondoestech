@@ -1,23 +1,43 @@
-## Hey there tech folks 👋🏾
----
-I like to learn and test out new technology. I love sharing everything I've learned on my journey with others.
+# 👋🏾 Hey there tech folks!
 
-I love to pick up new tools and technology as it comes out and build fun projects with them. I"m currently building out plug and play base package for Selenium based browser testing. I'm also an Engineering Manager for a team that enables other teams to do their best work. I'm working my CISSP as my commitment to building a safe web experience for all. 
+I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC. I love learning new technologies and sharing everything I've discovered along my journey.
 
-- 😄 Pronouns: He/Him/His
-- ⚡ Fun fact: I got sick of having to hunt for mechanical keyboards that I liked so I started building my own. Ask me about all my backpacks.
+## 🚀 What I'm Up To
+
+### 💼 Professional
+- 🚀 Leading a powerhouse engineering team that unlocks potential and removes roadblocks
+- 🛡️ On a quest for CISSP mastery to build fortress-level security into everything I touch
+- Running [StephonDoesTech LLC](https://stephondoestech.dev), providing technical support and maintenance services
+
+### 🎒 Personal
+- Exploring my passion for backpacks, including my prized Able Carry Max EDC
+- Gaming on my Steam Deck whenever I get some downtime
+- Reading great books to expand my knowledge and imagination
+- Spending quality time with my family - they're what matters most
+
+## 💻 Tech Stack
+
+- **Primary Language**: TypeScript
+- **Infrastructure**: Docker, Terraform, IaC principles
+- **CI/CD**: GitHub Actions for builds and pushing images to DockerHub
+- **Self-Hosting**: Running Unraid OS on my personal server
+- **Testing**: Building Selenium-based testing frameworks
+
+## 📫 Connect & Support
+
+- **Business Support**: [support@stephondoestech.dev](mailto:support@stephondoestech.dev)
+- **Support Portal**: [https://support.stephondoestech.dev](https://support.stephondoestech.dev)
+- **Phone**: (716) 462-2391
+
+## 🔍 About Me
+
+- 😄 **Pronouns**: He/Him/His
+- 🎮 **Hobbies**: Building custom mechanical keyboards
+- 🎒 **Fun fact**: I'm a backpack enthusiast with a collection for different purposes, including my favorite Able Carry Max EDC!
+- 🔒 **Professional Goals**: Strengthening web security through CISSP certification
+
+Looking to collaborate on interesting projects or need technical support? Reach out and let's connect!
 
 <!--
-**stephondoestech/stephondoestech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Profile setup inspired by GitHub's special repository feature
 -->
