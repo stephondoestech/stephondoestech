@@ -23,12 +23,6 @@ I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC
 - **Self-Hosting**: Running Unraid OS on my personal server
 - **Testing**: Building Selenium-based testing frameworks
 
-## 📫 Connect & Support
-
-- **Business Support**: [support@stephondoestech.dev](mailto:support@stephondoestech.dev)
-- **Support Portal**: [https://support.stephondoestech.dev](https://support.stephondoestech.dev)
-- **Phone**: (716) 462-2391
-
 ## 🔍 About Me
 
 - 😄 **Pronouns**: He/Him/His
