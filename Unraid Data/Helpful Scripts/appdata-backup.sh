@@ -11,7 +11,7 @@ SOURCE_DIR="/mnt/user/appdata/"
 #            This could be on the array (e.g., /mnt/user/backups/)
 #            or on an unassigned device (e.g., /mnt/disks/backup_drive/)
 #            Ensure this ends with a trailing slash /
-BACKUP_BASE_DIR="/mnt/user/backups/"
+BACKUP_BASE_DIR="/mnt/user/unraid_appdata_docker/"
 
 # Subdirectory within BACKUP_BASE_DIR specifically for these appdata backups
 BACKUP_SUBDIR="appdata_backups"
@@ -35,7 +35,7 @@ LOG_FILE="${BACKUP_DIR}backup_log_$(date +"%Y-%m").log"
 # Set LOG_FILE="" to only output to console/User Scripts log viewer
 
 # Number of days to keep backups. Set to 0 to disable rotation.
-DAYS_TO_KEEP=7
+DAYS_TO_KEEP=14
 
 # === End Configuration ===
 
