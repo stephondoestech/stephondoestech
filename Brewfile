@@ -34,11 +34,17 @@ brew 'hugo'
 brew 'pillow'
 brew 'libraqm'
 brew 'hashicorp/tap/hcp'
+brew 'yarn'
+cask 'iterm2'
+cask 'itermai'
+cask 'parallels'
 
 # Sys Admin Tools
 tap 'powershell/tap'
 brew 'powershell/tap/powershell'
 brew 'wireshark'
+cask 'paragon-extfs'
+cask 'paragon-ntfs'
 
 # Text editors
 cask 'visual-studio-code', args: { appdir: '~/Applications' }
@@ -51,10 +57,12 @@ brew 'git-lfs'
 # Database tools
 brew 'postgresql@15'
 brew 'sqlite'
+cask 'dbeaver-community'
+cask 'pgadmin4'
 
 # Browsers
 cask 'google-chrome'
-cask 'brave-browser'
+cask 'firefox'
 
 # Communication tools
 cask 'discord', args: { appdir: '~/Applications' }
@@ -66,10 +74,21 @@ brew 'make'
 cask 'warp', args: { appdir: '~/Applications' }
 
 # Productivity tools
-cask 'nextcloud'
 brew 'stow'
 cask 'zoom'
 cask 'microsoft-office'
+cask 'cyberduck'
+cask 'mullvadvpn'
+cask 'obs'
+cask '1password'
+cask 'thunderbird'
+
+# Media tools
+cask 'vlc'
+brew 'handbrake'
+cask 'imazing'
+cask 'blender'
+cask 'prusaslicer'
 
 # Configuration tools
 brew 'mas' # Mac App Store manager
@@ -87,10 +106,8 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Screens 5', id: 1663047912
 mas 'WireGuard', id: 1451685025
+mas 'Keka', id: 470158793
 
 #Internet Applications
 cask 'steam'
-cask 'blender'
 cask 'duplicacy-web-edition'
-brew 'handbrake'
-cask 'imazing'

@@ -1,0 +1,176 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+
+- Media Clients:
+    - Plex:
+        icon: plex.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: media server
+        widget:
+          type: plex
+          fields: 
+          url: http://xxx.xxx.xxx:xxx
+          key: token
+          container: plex
+       
+    - Immich:
+        icon: immich.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: photos
+        widget:
+          type: immich
+          url: http://xxx.xxx.xxx:xxx
+          fields: ["photos", "storage"]
+          key: key
+
+
+- Media Infrastructure:
+    - Xteve:
+        icon: xteve.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: Xteve
+        widget:
+          type: xteve
+          url: http://xxx.xxx.xxx:xxx
+          username: # optional
+          password: # optional
+          container: xteve
+    - Bazarr:
+        icon: bazarr.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: subtitles
+        widget:
+          type: bazarr
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: bazarr
+    - Overseerr:
+        icon: overseerr.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: request
+        widget:
+          type: overseerr
+          url: http://xxx.xxx.xxx:xxx
+          key: key      
+          container: overseerr
+    - Radarr:
+        icon: radarr.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: movies
+        widget:
+          type: radarr
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: radarr
+          enableQueue:  # optional, defaults to false
+        
+    - Sonarr:
+        icon: sonarr.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description:  tv    
+        widget:
+          type: sonarr
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: soonarr
+    - Tautulli:
+        icon: tautulli.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: media
+        widget:
+          type: tautulli
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: tautulli
+ 
+ 
+- Indexers:
+    - Prowlarr:
+        icon: prowlarr.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: indexer
+        widget:
+          type: prowlarr
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: prowlarr
+          
+        
+- Utilities:
+    - Pihole:
+        icon: pi-hole.png
+        href: http://xxx.xxx.xxx:xxx
+        siteMonitor:  http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: pihole
+        widget: 
+          type: pihole
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+          container: pihole
+    - Paperless-ngx:
+        icon: paperless-ngx.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: organizer  
+        widget:
+          type: paperlessngx
+          url: http://xxx.xxx.xxx:xxx
+          key: key
+    - Syncthing:
+        icon: syncthing.png
+        href: http://xxx.xxx.xxx:xxx
+        ping: http://xxx.xxx.xxx:xxx
+        statusStyle: "dot"
+        description: backup  
+        widget:
+          type: strelaysrv
+          url: http://xxx.xxx.xxx:xxx
+          api: api
+- Security:
+    - Cloudflared:
+        icon: cloudflare-zero-trust.png
+        href: 
+        ping: 
+        statusStyle: "dot"
+        description: Secure Tunnel
+        widget:
+          type: cloudflared
+          fields: ["status"]
+          accountid: 
+          tunnelid: 
+          key: 
+          container: Unraid-Cloudflared-Tunnel
+
+    - Tailscale:
+        icon: tailscale.png
+        href: 
+        ping: 
+        statusStyle: "dot"
+        description: Secure Network
+        widget:
+          type: tailscale
+          deviceid: 
+          key: 
+        
