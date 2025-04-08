@@ -82,7 +82,7 @@ cask 'mullvadvpn'
 cask 'obs'
 cask '1password'
 cask 'thunderbird'
-cask 'notion
+cask 'notion'
 
 # Media tools
 cask 'vlc'
