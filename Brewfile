@@ -76,12 +76,13 @@ cask 'warp', args: { appdir: '~/Applications' }
 # Productivity tools
 brew 'stow'
 cask 'zoom'
-cask 'microsoft-office'
+cask 'microsoft-office-businesspro'
 cask 'cyberduck'
 cask 'mullvadvpn'
 cask 'obs'
 cask '1password'
 cask 'thunderbird'
+cask 'notion
 
 # Media tools
 cask 'vlc'
