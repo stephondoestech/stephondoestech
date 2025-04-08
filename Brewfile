@@ -24,7 +24,6 @@ brew 'nvm'
 brew 'openjdk'
 brew 'hugo'
 brew 'dotnet@6'
-cask 'docker'
 brew 'docker'
 brew 'docker-machine'
 cask 'docker', args: { appdir: '~/Applications' }
