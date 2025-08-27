@@ -7,7 +7,7 @@ I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC
 ### 💼 Professional
 - 🚀 Leading a powerhouse engineering team that unlocks potential and removes roadblocks
 - 🛡️ On a quest for CISSP mastery to build fortress-level security into everything I touch
-- Running [StephonDoesTech LLC](https://stephondoestech.dev), providing technical support and maintenance services
+- Running Beacon Tech Constulting LLC, providing technical support and maintenance services
 
 ### 🎒 Personal
 - Exploring my passion for backpacks, including my prized Able Carry Max EDC
@@ -17,7 +17,7 @@ I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC
 
 ## 💻 Tech Stack
 
-- **Primary Language**: TypeScript
+- **Primary Language**: Python
 - **Infrastructure**: Docker, Terraform, IaC principles
 - **CI/CD**: GitHub Actions for builds and pushing images to DockerHub
 - **Self-Hosting**: Running Unraid OS on my personal server
