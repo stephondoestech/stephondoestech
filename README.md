@@ -1,6 +1,6 @@
 # 👋🏾 Hey there tech folks!
 
-I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC. I love learning new technologies and sharing everything I've discovered along my journey.
+I'm Stephon, a Lead Platform Engineer and the founder of Beacon Tech Consulting LLC. I love learning new technologies and sharing everything I've discovered along my journey.
 
 ## 🚀 What I'm Up To
 
@@ -10,7 +10,7 @@ I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC
 - Running Beacon Tech Constulting LLC, providing technical support and maintenance services
 
 ### 🎒 Personal
-- Exploring my passion for backpacks, including my prized Able Carry Max EDC
+- Exploring my passion for backpacks, including my prized Black Ember CITADEL_R3
 - Gaming on my Steam Deck whenever I get some downtime
 - Reading great books to expand my knowledge and imagination
 - Spending quality time with my family - they're what matters most
@@ -27,7 +27,7 @@ I'm Stephon, a Senior Engineering Manager and the founder of StephonDoesTech LLC
 
 - 😄 **Pronouns**: He/Him/His
 - 🎮 **Hobbies**: Building custom mechanical keyboards
-- 🎒 **Fun fact**: I'm a backpack enthusiast with a collection for different purposes, including my favorite Able Carry Max EDC!
+- 🎒 **Fun fact**: I'm a backpack enthusiast with a collection for different purposes, including my favorite Peak Design EDC
 - 🔒 **Professional Goals**: Strengthening web security through CISSP certification
 
 Looking to collaborate on interesting projects or need technical support? Reach out and let's connect!
